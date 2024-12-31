@@ -1,10 +1,11 @@
 
 import './App.css';
+import Nabbar from './components/Nabbar';
 
 function App() {
   return (
-    <div className=" text-5xl text-green-600">
-     hello
+    <div >
+    <Nabbar/>
     </div>
   );
 }
